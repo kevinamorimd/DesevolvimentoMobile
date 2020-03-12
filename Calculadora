@@ -11,6 +11,15 @@ public class Calculadora {
       
      JOptionPane.showMessageDialog(null, "A Soma dos numeros é " +result);
    } 
+  
+    public static void main(String[] args) {
+       int a = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+       int b = Integer.parseInt(JOptionPane.showInputDialog("Digite outro numero"));
       
+      int result = a-b;
+      
+     JOptionPane.showMessageDialog(null, "A Soma dos numeros é " +result);
+  
  }
    
+
